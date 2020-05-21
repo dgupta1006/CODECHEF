@@ -1,0 +1,11 @@
+list=[]
+t=int(input())
+max=10**6
+while(t!=0):
+    n=int(input())
+    list.append(n)
+    t=t-1
+st=sorted(list)
+for x in st:
+    print(x)
+
